@@ -1,10 +1,10 @@
 # Demo Microservice with NodeJs
-A demo microservice that finds distance between two ZIP codes using ZIPCodeAPI api.
+A demo microservice that finds distance between two ZIP codes using ZIPCodeAPI api. [Source](https://nodesource.com/blog/microservices-in-nodejs/)
 
  ## Creating Microservices with Node.js
  Creating a microservice using Node.js which connects to an external API. The requirement for this service is to accept two Zip Codes, **preferably US & Canada** (due to the nature of the api), and return the distance between them in kms.
  
- ### Initial Steps
+### Initial Steps
 1. Have **Node.js** installed
 2. Run `npm init` in the root folder for the project. This will create a package.json file that will prompt some questions about the package, if you are not sure how to answer you can use the default.
 3. We are going to use two packages, **Express** and **Require** that can be installed like this:
